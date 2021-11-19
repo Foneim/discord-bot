@@ -18,4 +18,3 @@ buttons : [{label : "Discord" , url : "https://discord.gg/mQCrguqpjP"}, {label :
 })
 })
 client.login({ clientId : "910966000206348359" }).catch(console.error);
-client.login(process.env.TOKEN);
